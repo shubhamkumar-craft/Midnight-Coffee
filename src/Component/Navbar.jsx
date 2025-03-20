@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import lightModeIcon from '../assets/light-mode.png';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
